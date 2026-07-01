@@ -6,7 +6,12 @@ What should be taken into account is that it is very difficult to retrieve a lis
 This is because not all journals are indexed in Web Of Science, Scopus or Pubmed. 
 Searching Google Scholar is one solution, but unfortunately Google Scholar does not have an API. Also, false positives results might be retrieved, in which case manual filtering is needed to remove them. 
 
-* Step 1
+* Step 1:
+  Search based on given keywords, retrieve publications and save the results as an output.
+
+  This can be done either through [Publish or Perish](https://harzing.com/resources/publish-or-perish) or by using the [Retrieve_publications.R]() script and searching in [Crossref](https://www.crossref.org) and [Semantic Scholar](https://www.semanticscholar.org)
+
+
 
 
 
