@@ -9,7 +9,7 @@ Searching Google Scholar is one solution, but unfortunately Google Scholar does 
 * Step 1:
   Search based on given keywords, retrieve publications and save the results as an output.
 
-  This can be done either through [Publish or Perish](https://harzing.com/resources/publish-or-perish) or by using the [Retrieve_publications.R]() script and searching in [Crossref](https://www.crossref.org) and [Semantic Scholar](https://www.semanticscholar.org)
+  This can be done either by downloading [Publish or Perish](https://harzing.com/resources/publish-or-perish) and searching on Google Scholar or by using the [Retrieve_publications.R]() script and searching in [Crossref](https://www.crossref.org) and [Semantic Scholar](https://www.semanticscholar.org)
 
 
 
