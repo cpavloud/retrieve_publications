@@ -298,3 +298,8 @@ write.table(EMBRC_nodes_papers, "EMBRC_nodes_papers.tsv",
 ################################################################################
 
 save.image("Retrieve_publications.RData") # creating ".RData" in current working directory
+					
+#Now you have everything in your computer,  
+#and you can load it anytime you want by running
+#load("Retrieve_publications.RData")
+					
