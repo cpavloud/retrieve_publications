@@ -9,13 +9,12 @@ Searching Google Scholar is one solution, but unfortunately Google Scholar does 
 * Step 1:
   Search based on given keywords, retrieve publications and save the results as an output.
 
-  This can be done either by downloading [Publish or Perish](https://harzing.com/resources/publish-or-perish) and searching on Google Scholar or by using the [Retrieve_publications.R]() script and searching in [Crossref](https://www.crossref.org) and [Semantic Scholar](https://www.semanticscholar.org)
-
-
-
-
+  This can be done either by downloading [Publish or Perish](https://harzing.com/resources/publish-or-perish) and searching on Google Scholar or by using the [Retrieve_publications.R](https://github.com/cpavloud/retrieve_publications/blob/main/Retrieve_publications.R) script and searching in [Crossref](https://www.crossref.org) and [Semantic Scholar](https://www.semanticscholar.org)
 
 * Step 2
+  If you have used the [Retrieve_publications.R](https://github.com/cpavloud/retrieve_publications/blob/main/Retrieve_publications.R) script, then continuing in the next step is more straightforward.
+
+  
 
 
 
