@@ -24,6 +24,8 @@ Searching Google Scholar is one solution, but unfortunately Google Scholar does 
 
   If you have used [Publish or Perish](https://harzing.com/resources/publish-or-perish) to search and export your results (in .csv), you should proceed with the [Create_file_for_website_perish.R](https://github.com/cpavloud/retrieve_publications/blob/main/Create_file_for_website_perish.R) script.
 
+  Bare in mind, some things are hard-coded in this script; it is as smooth as it can be at this point. 
+
 
 * Step 3:
 
