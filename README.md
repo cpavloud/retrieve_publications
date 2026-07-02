@@ -14,7 +14,9 @@ Searching Google Scholar is one solution, but unfortunately Google Scholar does 
 
   If you use the first option, there might be false positives retrieved which would then require filtering. Also, in most cases, the retrieved information is not displayed properly (e.g. authors names, journals, dois etc. are not provided in full). 
 
-  If you use the second option, the results in some cases will be very few since the script searches in for keywords in the title of the publications and in the publication metadata (e.g. dois, acknowlegments, funding etc.) and not in the full text. So, for example, in the case of EMO BON, publications will be retrieved only if the EMO BON is mentioned in the title. 
+  If you use the second option, the results in some cases will be very few since the script searches in for keywords in the title of the publications and in the publication metadata (e.g. dois, acknowlegments, funding etc.) and not in the full text. So, for example, in the case of EMO BON, publications will be retrieved only if the EMO BON is mentioned in the title.
+
+  Please bare in mind that, either way, you should select the proper start year and end year for the publications retrieval. 
 
 * Step 2:
 
