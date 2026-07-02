@@ -157,9 +157,11 @@ pubs <- select(pubs, -title, -doi_link)
 #merge the tables
 pubs <- full_join(doi_empty, pubs)
 
+#delete some columns from the pubs table that are redundant and not necessary
+pubs <- select(pubs, -year, -authors, -source)
+
 #create the table for the website
 website <- select(pubs, title,	date,	journal,	url,	EMOBON_publication)
-
 
 ################################################################################
 ############################## SAVE RESULTS ####################################
