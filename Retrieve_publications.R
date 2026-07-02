@@ -459,5 +459,3 @@ write.table(EMBRC_nodes_papers, "EMBRC_nodes_papers.tsv",
 ################################################################################
 
 save.image("Retrieve_publications.RData") # creating ".RData" in current working directory
-
-					
