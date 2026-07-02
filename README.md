@@ -22,10 +22,10 @@ Searching Google Scholar is one solution, but unfortunately Google Scholar does 
 
   If you have used the [Retrieve_publications.R](https://github.com/cpavloud/retrieve_publications/blob/main/Retrieve_publications.R) script, then continuing in the next step is more straightforward. By running the [Create_file_for_website.R](https://github.com/cpavloud/retrieve_publications/blob/main/Create_file_for_website.R) script, you will have your results as they should be delivered to the communications team for display on the website.
 
-  If you have used [Publish or Perish](https://harzing.com/resources/publish-or-perish) to search and export your results (in .csv), you should proceed with the [Create_file_for_website_perish.R]() script.
+  If you have used [Publish or Perish](https://harzing.com/resources/publish-or-perish) to search and export your results (in .csv), you should proceed with the [Create_file_for_website_perish.R](https://github.com/cpavloud/retrieve_publications/blob/main/Create_file_for_website_perish.R) script.
 
 
 * Step 3
 
-  After you have retrieved all the publications, you can split them per node using the [Publications_per_node.R]() script.
+  After you have retrieved all the publications, you can split them per node using the [Publications_per_node.R](https://github.com/cpavloud/retrieve_publications/blob/main/Publications_per_node.R) script.
 
