@@ -27,6 +27,5 @@ Searching Google Scholar is one solution, but unfortunately Google Scholar does 
 
 * Step 3
 
+  After you have retrieved all the publications, you can split them per node using the [Publications_per_node.R]() script.
 
-
-* Step 4
