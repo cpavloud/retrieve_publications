@@ -19,7 +19,6 @@ https://cpavloud.github.io/mysite/
 
 # =============================================================
 
-
 ################################################################################
 ############################ LOAD LIBRARIES ####################################
 ################################################################################
@@ -98,7 +97,7 @@ Sweden <- unique(Sweden)
 
 Sweden <- semi_join(pubs_authors, Sweden)
 Sweden <- select(Sweden, title, journal, doi, volume, issue, page, url, ORCID, name, surname, 
-                 date, EMOBON_publication)
+                 date, EMOBON_publication, abstract)
 
 
 ################################################################################
@@ -122,8 +121,7 @@ Spain <- unique(Spain)
 
 Spain <- semi_join(pubs_authors, Spain)
 Spain <- select(Spain, title, journal, doi, volume, issue, page, url, ORCID, name, surname, 
-                date, EMOBON_publication)
-
+                date, EMOBON_publication, abstract)
 
 ################################################################################
 ############################### PORTUGAL########################################
@@ -147,7 +145,7 @@ Portugal <- unique(Portugal)
 
 Portugal <- semi_join(pubs_authors, Portugal)
 Portugal <- select(Portugal, title, journal, doi, volume, issue, page, url, ORCID, name, surname, 
-                   date, EMOBON_publication)
+                   date, EMOBON_publication, abstract)
 
 
 ################################################################################
@@ -160,7 +158,7 @@ Greece <- unique(Greece)
 
 Greece <- semi_join(pubs_authors, Greece)
 Greece <- select(Greece, title, journal, doi, volume, issue, page, url, ORCID, name, surname, 
-                 date, EMOBON_publication)
+                 date, EMOBON_publication, abstract)
 
 
 ################################################################################
@@ -178,7 +176,7 @@ Israel <- unique(Israel)
 
 Israel <- semi_join(pubs_authors, Israel)
 Israel <- select(Israel, title, journal, doi, volume, issue, page, url, ORCID, name, surname, 
-                 date, EMOBON_publication)
+                 date, EMOBON_publication, abstract)
 
 
 
@@ -197,7 +195,7 @@ France <- unique(France)
 
 France <- semi_join(pubs_authors, France)
 France <- select(France, title, journal, doi, volume, issue, page, url, ORCID, name, surname, 
-                 date, EMOBON_publication)
+                 date, EMOBON_publication, abstract)
 
 
 ################################################################################
@@ -224,7 +222,7 @@ Finland <- unique(Finland)
 
 Finland <- semi_join(pubs_authors, Finland)
 Finland <- select(Finland, title, journal, doi, volume, issue, page, url, ORCID, name, surname, 
-                  date, EMOBON_publication)
+                  date, EMOBON_publication, abstract)
 
 
 ################################################################################
@@ -247,7 +245,7 @@ Norway <- unique(Norway)
 
 Norway <- semi_join(pubs_authors, Norway)
 Norway <- select(Norway, title, journal, doi, volume, issue, page, url, ORCID, name, surname, 
-                 date, EMOBON_publication)
+                 date, EMOBON_publication, abstract)
 
 
 ################################################################################
@@ -265,7 +263,7 @@ Belgium <- unique(Belgium)
 
 Belgium <- semi_join(pubs_authors, Belgium)
 Belgium <- select(Belgium, title, journal, doi, volume, issue, page, url, ORCID, name, surname, 
-                  date, EMOBON_publication)
+                  date, EMOBON_publication, abstract)
 
 
 ################################################################################
@@ -300,7 +298,7 @@ Italy <- unique(Italy)
 
 Italy <- semi_join(pubs_authors, Italy)
 Italy <- select(Italy, title, journal, doi, volume, issue, page, url, ORCID, name, surname, 
-                date, EMOBON_publication)
+                date, EMOBON_publication, abstract)
 
 ################################################################################
 ############################## SAVE RESULTS ####################################
