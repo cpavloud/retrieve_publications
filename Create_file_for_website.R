@@ -163,11 +163,17 @@ pubs <- select(pubs, -year, -authors, -source)
 #create the table for the website
 website <- select(pubs, title,	date,	journal,	url,	EMOBON_publication)
 
+#create a shorter version of the pubs table for saving
+pubs_short <- select(pubs, -author, -funder)
+
 ################################################################################
 ############################## SAVE RESULTS ####################################
 ################################################################################
 
 write.table(website, "website.tsv", 
+            row.names = FALSE, col.names = TRUE, sep = "\t", quote = FALSE)
+
+write.table(pubs_short, "pubs_short.tsv", 
             row.names = FALSE, col.names = TRUE, sep = "\t", quote = FALSE)
 
 ################################################################################
